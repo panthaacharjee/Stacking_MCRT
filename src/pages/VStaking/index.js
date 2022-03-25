@@ -434,7 +434,7 @@ const VStaking = (walletAddress) => {
       );
       } else {
         return(
-          <button onClick={() =>isnotapproved()}> <div className="btn_style"><img src={graph}/> Increase Stake</div></button>
+          <button onClick={() =>isnotapproved()}> <div className="btn_style"><img src={graph}/> <div>Increase Stake</div></div></button>
       );
     }
   }
@@ -705,7 +705,7 @@ const VStaking = (walletAddress) => {
                     <span>{stakedMCRT}</span>
                   </div>
                 </div>
-                <p>Staked MCRT</p>
+                <p>Earned MCRT</p>
               </div>
             </div>
           </Col>

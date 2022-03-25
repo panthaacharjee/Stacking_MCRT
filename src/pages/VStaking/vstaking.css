@@ -1,7 +1,10 @@
 .btn_style{
     display: flex;
-    justify-content: space-around !important;
+    justify-content: flex-start !important;
     align-items: center;
+    width: 100%;
+    padding: 0px 20%;
+    margin: 0px auto;
 }
 .btn_style img{
     margin-right: 20px;
