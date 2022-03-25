@@ -20,6 +20,7 @@ import graph from '../../assets/Group2.png'
 import reward from '../../assets/Group3.png'
 import withdrawClaim from '../../assets/Group4.png'
 
+import {FcAlarmClock} from 'react-icons/fc'
 
 const VStaking = (walletAddress) => {
   const [visibleDropdown, setVisibleDropdown] = useState(false);
@@ -829,7 +830,7 @@ const VStaking = (walletAddress) => {
 
 
             <p className="vstaking__stake__action__hint-till">
-              stake until 2022-4-6 01:00
+              stake until 2022-4-6 <span><FcAlarmClock/></span>01:00
             </p>
             <p className="vstaking__stake__action__hint-warn">
               Early unstake penalty is a max of 75% that then drops linearly
