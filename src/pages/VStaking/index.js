@@ -690,16 +690,20 @@ const VStaking = (walletAddress) => {
             <div className="vstaking__status-wrapper">
               <div className="vstaking__status">
                 <div className="vstaking__status-item">
-                  <img src={logo} alt="" />
-                  <span>{stakedMCRT}</span>
+                  <div>
+                    <img src={logo} alt="" />
+                    <span>{stakedMCRT}</span>
+                  </div>
                 </div>
                 <p>Staked MCRT</p>
               </div>
 
               <div className="vstaking__status">
                 <div className="vstaking__status-item">
-                  <img src={logo} alt="" />
-                  <span>{stakedMCRT}</span>
+                  <div>
+                    <img src={logo} alt="" />
+                    <span>{stakedMCRT}</span>
+                  </div>
                 </div>
                 <p>Staked MCRT</p>
               </div>
@@ -732,7 +736,7 @@ const VStaking = (walletAddress) => {
         <Row className="vstaking_margin">
           <Col sm={6} className="vstaking__stake__action">
           <h4>Staking Method</h4>
-            <div style={{ position: "relative" }}>
+            <div style={{ position: "relative" }} className="border_gradiant">
               <div
                 className={`vstaking__stake__action-select ${
                   visibleOptionDropdown ? "active" : ""
@@ -771,16 +775,18 @@ const VStaking = (walletAddress) => {
               )}
             </div><p></p>
             <h4>Stacking Period</h4>
-            <input
-              type="number"
-              className="vstaking__stake__action-input"
-              value={amnt}
-              onInput={e=>setAmntInput(e.target.value)}
-              min={0}
-            />  
+            <div className="border_gradiant">
+              <input
+                type="number"
+                className="vstaking__stake__action-input"
+                value={amnt}
+                onInput={e=>setAmntInput(e.target.value)}
+                min={0}
+              />  
+            </div>
 
-            <div style={{ position: "relative" }}>
             <h4>Token Amount</h4>
+            <div style={{ position: "relative" }} className="border_gradiant">
               <div
                 className={`vstaking__stake__action-select ${
                   visibleDropdown ? "active" : ""
