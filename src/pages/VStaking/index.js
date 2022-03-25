@@ -697,19 +697,17 @@ const VStaking = (walletAddress) => {
               </div>
 
               <div className="vstaking__status">
-                <img src={pic}/>
+                <div className="vstaking__status-item">
+                  <img src={logo} alt="" />
+                  <span>{stakedMCRT}</span>
+                </div>
+                <p>Staked MCRT</p>
               </div>
             </div>
           </Col>
           <Col sm={6}>
             <div className="vstaking__status-wrapper">
-              <div className="vstaking__status">
-                <div className="vstaking__status-item">
-                  <img src={logo} alt="" />
-                  <span>{stakedMCRT}</span>
-                </div>
-                <p>Earned MCRT</p>
-              </div>
+             
 
               <div className="vstaking__status">
                 <img src={pic}/>
