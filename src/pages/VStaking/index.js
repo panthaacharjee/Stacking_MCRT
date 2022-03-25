@@ -15,10 +15,10 @@ import { Slide, Zoom, Flip, Bounce } from 'react-toastify';
 //Images
 import pic from "../../assets/pic.png"
 
-import like from '../../assets/Shape.png';
-import graph from '../../assets/GraphIncrease.png'
-import reward from '../../assets/Reward.png'
-import withdrawClaim from '../../assets/Withdraw.png'
+import like from '../../assets/Group1.png';
+import graph from '../../assets/Group2.png'
+import reward from '../../assets/Group3.png'
+import withdrawClaim from '../../assets/Group4.png'
 
 
 const VStaking = (walletAddress) => {
