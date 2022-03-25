@@ -707,8 +707,6 @@ const VStaking = (walletAddress) => {
           </Col>
           <Col sm={6}>
             <div className="vstaking__status-wrapper">
-             
-
               <div className="vstaking__status">
                 <img src={pic}/>
               </div>
