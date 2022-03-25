@@ -1,0 +1,14 @@
+.btn_style{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.btn_style img{
+    margin-right: 20px;
+}
+.vstaking_margin{
+    margin-top: 20px  !important;
+}
+.vstaking__status img{
+    width: 100%;
+}
